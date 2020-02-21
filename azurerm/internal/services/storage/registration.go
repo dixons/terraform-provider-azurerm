@@ -19,6 +19,7 @@ func (r Registration) SupportedDataSources() map[string]*schema.Resource {
 		"azurerm_storage_account":                    dataSourceArmStorageAccount(),
 		"azurerm_storage_container":                  dataSourceArmStorageContainer(),
 		"azurerm_storage_management_policy":          dataSourceArmStorageManagementPolicy(),
+		"azurerm_storage_table":                      dataSourceArmStorageTable(),
 	}
 }
 
